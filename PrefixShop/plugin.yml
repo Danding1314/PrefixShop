@@ -1,0 +1,16 @@
+name: PrefixShop
+main: prefix\Main
+version: 1.0.0
+api: [3.0.0]
+load: POSTWORLD
+author: sdsd16 
+description: SEXD伺服器-監獄稱號商店
+
+commands:
+  prefix:
+    description: "稱號!"
+    usage: /prefix <編號>
+
+permissions:    
+ prefixshop.command.prefix:
+  default: true 
